@@ -1,6 +1,9 @@
 configuration: Release
+
+#restore NuGet
 before_build:
-	-nuget restore
+-nuget restore
+
 build:
-	verbosity: minimal
-	publish_wap: true
+verbosity: minimal
+publish_wap: true
