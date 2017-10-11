@@ -1,6 +1,0 @@
---- 
-before_build: "-nuget restore"
-build: ~
-configuration: Release
-publish_wap: true
-verbosity: minimal
